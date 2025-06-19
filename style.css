@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f4f4;
+}
+
+.card {
+  background-color: white;
+  opacity: 80% ;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 550px;
+  width: 100%;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1 {
+  font-family: 'Pacifico';
+  font-size: 1.8em;
+  margin-bottom: 5px;
+  color: #8e44ad;
+}
+
+h3 {
+  font-family: 'Raleway';
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  color: #666666;
+}
+
+.contact-links a {
+  font-family: Georgia;
+  display: inline-block;
+  margin: 5px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  text-decoration: none;
+  color: rgb(176, 73, 201);        
+  transform: scale(1.02);         
+  transition: all 0.5s ease-in-out;
+}
+
